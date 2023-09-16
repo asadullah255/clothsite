@@ -1,0 +1,1193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+header{
+    width: 100%;
+    height: 3rem;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.mango{
+    margin-right: 60rem;
+}
+.mango a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    margin-left: 2rem;
+    color: white;
+    font-family: 'Sen', sans-serif;
+}
+.icon{
+    margin-right: 2rem;
+}
+.icon a{
+    color: white;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+@media only screen and (max-width:1160px){
+    *{
+        font-size: 8px;
+    }    
+}
+
+@media only screen and (max-width:860px){
+    *{
+        font-size: 6px;
+    }    
+}
+
+@media only screen and (max-width:660px){
+    *{
+        font-size: 4px;
+    }    
+}
+
+@media only screen and (max-width:440px){
+    *{
+        font-size: 2px;
+    }    
+}
+
+@media only screen and (max-width:240px){
+    *{
+        font-size: 1px;
+    }    
+}
+
+.open-side{
+    width: 100%;
+    height: 6rem;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 0.1rem dashed black;
+}
+.open-side a{
+    text-decoration: none;
+    font-size: 2.5rem;  
+}
+.open-side a{
+    margin-right: 0rem;
+    color: black;
+    font-family: 'Sen', sans-serif ;
+}
+.last-icons a{
+    margin-left: 4.5rem;
+}
+.last-icons a i{
+    font-size: 2.3rem;
+    color: rgb(0, 0, 0);
+}
+.last-icons{
+    margin-left: -18rem;
+}
+.menu a{
+    margin-right: 2rem;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.menu a:hover{
+    color: rgb(189 189 189);
+}
+.menu{
+    margin-right: 1rem;
+}
+.font a{
+    font-size: 3.2rem;
+    font-weight: bolder;
+}
+.first-box{
+    position: relative;
+    margin-left: 9rem;
+    margin-top: 5rem;
+    width: 53rem;
+    height: 45rem;
+    background-image: url(giral2.jpg);
+    background-size: cover;
+    
+}
+.first-small-box{
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%,-50%);
+    width: 20rem;
+    height: 8rem;
+    background-color: rgb(255, 255, 255);
+}
+.first-small-box H1{
+    text-align: center;
+    margin-top: 1.5rem;
+    font-family: 'Sen', sans-serif ;
+    color: rgb(133, 133, 133);
+}
+.first-small-box h2{
+    text-align: center;
+    margin-top: 1.2rem;
+    font-size: 2rem;
+    font-family: 'Sen', sans-serif ;
+}
+.second-box{
+    position: relative;
+    margin-left: 66rem;
+    margin-top: -45rem;
+    width: 29rem;
+    height: 20rem;
+    background-image: url(giral1.jpg);
+    background-size: cover;
+}
+.second-small-box{
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%,-50%);
+    width: 12rem;
+    height: 5rem;
+    background-color: white;
+}
+.second-small-box h1{
+    text-align: center;
+    margin-top: 1.3rem;
+    font-size: 2rem;
+    font-family: 'Sen', sans-serif ;
+}
+.third-box{
+    margin-left: 98rem;
+    margin-top: -20rem;
+    width: 30rem;
+    height: 20rem;
+    background-image: url(as.jpg);
+    background-size: cover;
+}
+.third-small-box{
+    position: relative;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 12rem;
+    height: 5rem;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+.third-small-box h1{
+    position: absolute;
+    margin-left: 4rem;
+    margin-top: 1.3rem;
+    font-size: 2rem;
+    font-family: 'Sen', sans-serif ;
+}
+.forth-box{
+    margin-left: 66rem;
+    margin-top: 3rem;
+    width: 62rem;
+    height: 22rem;
+    background-image: url(bag.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.forth-small-box{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 17rem;
+    height: 5rem;
+    background-color: rgb(255, 255, 255);
+}
+.forth-small-box h1{
+    position: absolute;
+    margin-left: 3.2rem;
+    margin-top: 1.3rem;
+    font-size: 2rem;
+    font-family: 'Sen', sans-serif ;
+}
+.footer{
+    display: flex;
+    justify-content: space-around
+}
+.truck a{
+    position: absolute;
+    left: 9rem;
+    top: 62.4rem;
+    font-size: 2rem;
+    text-decoration: none;
+}
+.truck a i{
+    font-size: 2.5rem;
+    color: black;
+}
+.truck h1{
+    position: absolute;
+    left: 14rem;
+    top: 62rem;
+    font-size: 1.5rem;
+    font-family:'Sen', sans-serif;
+}
+.truck h2{
+    position: absolute;
+    left: 14rem;
+    top: 64rem;
+    font-size: 1.5rem;
+    font-family:'Sen', sans-serif;
+}
+.footer-box{
+    width: 100%;
+    height: 10rem;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 0.1rem solid black;
+}
+.days a{
+    position: absolute;
+    top: 62.3rem;
+    left: 46rem;
+    font-size: 2rem;
+    font-family:'Sen', sans-serif;
+    text-decoration: none;
+}
+.days a i{
+    font-size: 2.5rem;
+    color: black;
+}
+.days h1{
+    position: absolute;
+    top: 62rem;
+    left: 51rem;
+    font-size:1.5rem;
+    font-family:'Sen', sans-serif;
+}
+.days h2{
+    position: absolute;
+    top: 64rem;
+    left: 51rem;
+    font-size: 1.5rem;
+    font-family:'Sen', sans-serif;
+}
+.suppott a{
+    position: absolute;
+    top: 62.5rem;
+    left: 92rem;
+    font-size: 2rem;
+    text-decoration: none;
+}
+.suppott a i{
+    font-size: 2.5rem;
+    color: black;
+}
+.suppott h1{
+    position: absolute;
+    top: 62rem;
+    left: 97rem;
+    font-size: 1.5rem;
+    font-family:'Sen', sans-serif;
+}
+.suppott h2{
+    position: absolute;
+    top: 64rem;
+    left: 97rem;
+    font-size: 1.5rem;
+    font-family:'Sen', sans-serif;
+}
+.middle-box{
+    width: 100%;
+    height: 10rem;
+    background-color: rgb(255, 255, 255);
+}
+.middle-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.first-logo{
+    font-size: 3rem;
+    font-family:'Sen', sans-serif;
+    margin-left: 8rem;
+    font-weight: bolder;
+}
+.special-menu a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-family:'Sen', sans-serif;
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    font-weight: 600;
+}
+.special-menu a:hover{
+    color: rgb(157 157 157);
+}
+.special-menu{
+    margin-left: 3rem;
+}
+.grid-system{
+    position: absolute;
+    left: 9rem;
+    width: 88%;
+    height: 32rem;
+    background-color: rgb(255, 255, 255);
+}
+.women-first-grid{
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height:28rem ;
+    grid-gap: 3rem;
+}
+.item-one{
+    position: relative;
+    background-image: url(rerr.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;    
+}
+.item-one:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.item-one h1{
+    position: absolute;
+    top: 29rem;
+    left: 0rem;
+    font-size: 1.5rem;
+    font-family:'Sen', sans-serif;
+    color: rgb(0, 0, 0);
+}
+.item-one h2{
+    position: absolute;
+    top: 31rem;
+    left: 0rem;
+    font-size: 1.2rem;
+    font-family:'Sen', sans-serif;
+}
+.item-two{
+    position: relative;
+    background-image: url(aqsesf.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+}
+.item-two:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+.item-two h1{
+    position: absolute;
+    top: 29rem;
+    left: 0rem;
+    font-size: 1.5rem;
+    font-family:'Sen', sans-serif;
+    color: rgb(0, 0, 0);
+}
+.item-two h2{
+    position: absolute;
+    top: 31rem;
+    left: 0rem;
+    font-size: 1.2rem;
+    font-family:'Sen', sans-serif;
+}
+.item-three{
+    position: relative;
+    background-image: url(sdfsdge.jpg);
+    background-size: cover;
+    transition: 0.5s;
+    }
+.item-three:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}    
+.item-three h1{
+    position: absolute;
+    top: 29rem;
+    left: 0rem;
+    font-size: 1.5rem;
+    font-family:'Sen', sans-serif;
+    color: rgb(0, 0, 0);
+}
+.item-three h2{
+    position: absolute;
+    top: 31rem;
+    left: 0rem;
+    font-size: 1.2rem;
+    font-family:'Sen', sans-serif;
+}   
+.item-four{
+    position: relative;
+    background-image: url(afhgkj.jpg);
+    background-size: cover;
+    transition: 0.5s;
+}
+.item-four:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+.item-four h1{
+    position: absolute;
+    top: 29rem;
+    left: 0rem;
+    font-size: 1.5rem;
+    font-family:'Sen', sans-serif;
+    color: rgb(0, 0, 0);
+}
+.item-four h2{
+    position: absolute;
+    top: 31rem;
+    left: 0rem;
+    font-size: 1.2rem;
+    font-family:'Sen', sans-serif;
+}
+.second-grid{
+    position: absolute;
+    left: 9rem;
+    top: 115rem;
+    width: 88%;
+    height: 32rem;
+    background-color: rgb(255, 255, 255);
+}
+.women-second-grid{
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height:28rem ;
+    grid-gap: 3rem;
+}
+.phone-one{
+    position: relative;
+    background-image: url(LingualHardy3.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+}
+.phone-one:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+.phone-one h1{
+    position: absolute;
+    top: 29rem;
+    left: 0rem;
+    font-size: 1.5rem;
+    font-family:'Sen', sans-serif;
+    color: rgb(0, 0, 0);
+}
+.phone-one h2{
+    position: absolute;
+    top: 31rem;
+    left: 0rem;
+    font-size: 1.2rem;
+    font-family:'Sen', sans-serif;
+}
+.phone-two{
+    position: relative;
+    background-image: url(wryiio.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+}
+.phone-two:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+.phone-two h1{
+    position: absolute;
+    top: 29rem;
+    left: 0rem;
+    font-size: 1.5rem;
+    font-family:'Sen', sans-serif;
+    color: rgb(0, 0, 0);
+}
+.phone-two h2{
+    position: absolute;
+    top: 31rem;
+    left: 0rem;
+    font-size: 1.2rem;
+    font-family:'Sen', sans-serif;
+}
+.phone-three{
+    position: relative;
+    background-image: url(istockphoto-1317804584-170667a.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+}
+.phone-three:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+.phone-three h1{
+    position: absolute;
+    top: 29rem;
+    left: 0rem;
+    font-size: 1.5rem;
+    font-family:'Sen', sans-serif;
+    color: rgb(0, 0, 0);
+}
+.phone-three h2{
+    position: absolute;
+    top: 31rem;
+    left: 0rem;
+    font-size: 1.2rem;
+    font-family:'Sen', sans-serif;
+}
+.phone-four{
+    position: relative;
+    background-image: url(tyiweroui.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+}
+.phone-four:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+.phone-four h1{
+    position: absolute;
+    top: 29rem;
+    left: 0rem;
+    font-size: 1.5rem;
+    font-family:'Sen', sans-serif;
+    color: rgb(0, 0, 0);
+}
+.phone-four h2{
+    position: absolute;
+    top: 31rem;
+    left: 0rem;
+    font-size: 1.2rem;
+    font-family:'Sen', sans-serif;
+}
+.see{
+    width: 88%;
+    height: 3rem;
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    position: absolute;
+    top: 152rem;
+    left: 9rem;
+    align-items: center;
+    justify-content: space-around;
+}
+.see a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-family:'Sen', sans-serif;
+    color: black;
+    font-weight: 600;
+}
+.centerin-box{
+    display: flex;
+    position: absolute;
+    top: 158rem;
+    left: 9rem;
+    width: 88%;
+    height: 6rem;
+    background-color: #ffffff;
+    justify-content: space-around;
+    align-items: center;
+}
+.first-man-logo{
+    font-size: 3.5rem;
+    font-family:'Sen', sans-serif;
+    margin-left: 0rem;
+    font-weight: bolder;
+}
+.third-grid{
+    position: absolute;
+    left: 9rem;
+    top: 168rem;
+    width: 88%;
+    height: 32rem;
+    background-color: rgb(255, 255, 255);
+}
+.men-second-grid{
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height:28rem ;
+    grid-gap: 3rem;
+}
+.mobile-one{
+    position: relative;
+    background-image: url(black-sweatshirt-man-mockup-in-white-background.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+}
+.mobile-one:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+.mobile-one h1{
+    position: absolute;
+    top: 29rem;
+    left: 0rem;
+    font-size: 1.5rem;
+    font-family:'Sen', sans-serif;
+    color: rgb(0, 0, 0);
+}
+.mobile-one h2{
+    position: absolute;
+    top: 31rem;
+    left: 0rem;
+    font-size: 1.2rem;
+    font-family:'Sen', sans-serif;
+}
+.mobile-two{
+    position: relative;
+    background-image: url(asafd.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+}
+.mobile-two:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+.mobile-two h1{
+    position: absolute;
+    top: 29rem;
+    left: 0rem;
+    font-size: 1.5rem;
+    font-family:'Sen', sans-serif;
+    color: rgb(0, 0, 0);
+}
+.mobile-two h2{
+    position: absolute;
+    top: 31rem;
+    left: 0rem;
+    font-size: 1.2rem;
+    font-family:'Sen', sans-serif;
+}
+.mobile-three{
+    position: relative;
+    background-image: url(01-free-hoodie-mockup-824x542.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+}
+.mobile-three:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+.mobile-three h1{
+    position: absolute;
+    top: 29rem;
+    left: 0rem;
+    font-size: 1.5rem;
+    font-family:'Sen', sans-serif;
+    color: rgb(0, 0, 0);
+}
+.mobile-three h2{
+    position: absolute;
+    top: 31rem;
+    left: 0rem;
+    font-size: 1.2rem;
+    font-family:'Sen', sans-serif;
+}
+.mobile-four{
+    position: relative;
+    background-image: url(qwed.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+}
+.mobile-four:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+.mobile-four h1{
+    position: absolute;
+    top: 29rem;
+    left: 0rem;
+    font-size: 1.5rem;
+    font-family:'Sen', sans-serif;
+    color: rgb(0, 0, 0);
+}
+.mobile-four h2{
+    position: absolute;
+    top: 31rem;
+    left: 0rem;
+    font-size: 1.2rem;
+    font-family:'Sen', sans-serif;
+}
+.forth-grid{
+    position: absolute;
+    left: 9rem;
+    top: 205rem;
+    width: 88%;
+    height: 32rem;
+    background-color: rgb(255, 255, 255);
+}
+.men-forth-grid{
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height:28rem ;
+    grid-gap: 3rem;
+}
+.ants-one{
+    position: relative;
+    background-image: url(ba6b279302223d346d0f2faf38bcf21d.jpg);
+    background-size: cover;
+    transition: 0.5s;
+}
+.ants-one:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+.ants-one h1{
+    position: absolute;
+    top: 29rem;
+    left: 0rem;
+    font-size: 1.5rem;
+    font-family:'Sen', sans-serif;
+    color: rgb(0, 0, 0);
+}
+.ants-one h2{
+    position: absolute;
+    top: 31rem;
+    left: 0rem;
+    font-size: 1.2rem;
+    font-family:'Sen', sans-serif;
+}
+.ants-two{
+    position: relative;
+    background-image: url(qwrwe.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+}
+.ants-two:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+.ants-two h1{
+    position: absolute;
+    top: 29rem;
+    left: 0rem;
+    font-size: 1.5rem;
+    font-family:'Sen', sans-serif;
+    color: rgb(0, 0, 0);
+}
+.ants-two h2{
+    position: absolute;
+    top: 31rem;
+    left: 0rem;
+    font-size: 1.2rem;
+    font-family:'Sen', sans-serif;
+}
+.ants-three{
+    position: relative;
+    background-image: url(vmh.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+}
+.ants-three:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+.ants-three h1{
+    position: absolute;
+    top: 29rem;
+    left: 0rem;
+    font-size: 1.5rem;
+    font-family:'Sen', sans-serif;
+    color: rgb(0, 0, 0);
+}
+.ants-three h2{
+    position: absolute;
+    top: 31rem;
+    left: 0rem;
+    font-size: 1.2rem;
+    font-family:'Sen', sans-serif;
+}
+.ants-four{
+    position: relative;
+    background-image: url(afhgjk.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+}
+.ants-four:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+.ants-four h1{
+    position: absolute;
+    top: 29rem;
+    left: 0rem;
+    font-size: 1.5rem;
+    font-family:'Sen', sans-serif;
+    color: rgb(0, 0, 0);
+}
+.ants-four h2{
+    position: absolute;
+    top: 31rem;
+    left: 0rem;
+    font-size: 1.2rem;
+    font-family:'Sen', sans-serif;
+}
+.kan{
+    
+    width: 88%;
+    height: 3rem;
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    position: absolute;
+    top: 241rem;
+    left: 9rem;
+    align-items: center;
+    justify-content: space-around;
+}
+.kan a{
+    
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-family:'Sen', sans-serif;
+    color: black;
+    font-weight: 600;
+}
+.gasloin{
+    position: absolute;
+    top: 250rem;
+    left: 9rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3rem;
+    width: 88%;
+    height: 25rem;
+    background-color: rgb(255, 255, 255);
+}
+.gasloin-one{
+    background-color: aqua;
+    background-image: url(depositphotos_141735622-stock-photo-beautiful-woman-face-close-up.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gasloin-two{
+    background-color: aqua;
+    background-image: url(sdgdfh.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gasloin-one-box{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 20rem;
+    height: 8rem;
+    background-color: rgb(255, 255, 255);
+}
+.gasloin-one-box h1{
+    position: absolute;
+    top: 2rem;
+    left: 6.5rem;
+    font-size: 1.3rem;
+    text-align: center;
+    font-family:'Sen', sans-serif;
+}
+.gasloin-one-box h2{
+    position: absolute;
+    top: 5rem;
+    left: 1.2rem;
+    font-size: 1.4rem;
+    text-align: center;
+    font-family:'Sen', sans-serif;
+}
+.gasloin-two-box{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 20rem;
+    height: 8rem;
+    background-color: rgb(255, 255, 255);
+}
+.gasloin-two-box h1{
+    position: absolute;
+    top: 2rem;
+    left: 8rem;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family:'Sen', sans-serif;
+}
+.gasloin-two-box h2{
+    position: absolute;
+    top: 5rem;
+    left: 1.5rem;
+    font-size: 1.7rem;
+    text-align: center;
+    font-family:'Sen', sans-serif;
+}
+.gray-box{
+    position: absolute;
+    top: 281rem;
+    left: 9rem;
+    width: 88%;
+    height: 50rem;
+    background-color: rgb(204 202 203);
+}
+.gray-box img{
+    position: absolute;
+    top: 0rem;
+    left: 24rem;
+    font-size: larger;
+    height: 50rem;
+}
+.contact-box{
+    position: absolute;
+    left: 25%;
+    top: 51%;
+    transform: translate(-50%,-50%);
+    width: 40rem;
+    height: 35rem;
+    background-color: rgb(237 237 237)
+}
+.contact-box h1{
+    position: absolute;
+    top: 6rem;
+    font-size: 1.3rem;
+    left: 16rem;
+    font-family:'Sen', sans-serif;
+}
+.contact-box h2{
+    position: absolute;
+    top: 8rem;
+    font-size: 2.5rem;
+    left: 13.2rem;
+    font-family:'Sen', sans-serif;
+}
+.contact-box h3{
+    position: absolute;
+    top: 11rem;
+    font-size: 2.5rem;
+    left: 9rem;
+    font-family:'Sen', sans-serif;
+}
+.enter{
+    position: absolute;
+    left: 50%;
+    top: 54%;
+    transform: translate(-50%,-50%);
+}
+.enter input{
+    outline: none;
+    width: 20rem;
+    height: 3.5rem;
+    padding: 1rem;
+    border: 0;
+}
+.enter input:focus{
+    background-color: rgb(204, 204, 204);
+}
+.email{
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%,-50%);
+}
+.email input{
+    outline: none;
+    width: 20rem;
+    height: 3.5rem;      
+    background-color: black;
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-family:'Sen', sans-serif;
+    transition: background 0.5s ease;
+    border: 0;
+}
+.email input:hover{
+    background-color: rgb(211, 211, 211);
+    border: 0;
+}
+.latest-box{
+    width: 88%;
+    height: 63rem;
+    background-color: rgb(255, 255, 255);
+    margin-top: 260rem;
+    margin-left: 9rem;
+}
+.bolg{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    border-bottom: 0.1rem solid black;
+}
+.enjoy{
+    font-size: 3rem;
+    font-family:'Sen', sans-serif;
+    margin-right: 55rem;
+}
+.bolg a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family:'Sen', sans-serif;
+    color: black;
+    
+}
+.grid-time{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3rem;
+    width: 100%;
+    height: 37rem;
+    margin-top: 5rem;
+    margin-left: 0rem;
+}
+.grid-time-one{
+    background-image: url(istockphoto-1296364410-612x612.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.grid-time-two{
+    background-image: url(asadullah.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.grid-time-three{
+    background-image: url(asad.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.flex-term{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 88%;
+    grid-gap: 3rem;
+    height: 10rem;
+    background-color: rgb(255, 255, 255);
+    margin-top: 1rem;
+    justify-content: space-around;
+    margin-left: 7rem;
+}
+.first-term{
+    font-size: 1.9rem;
+    margin-left: 0rem;
+    font-family:'Sen', sans-serif;
+    padding: 0px 0px 0px 24px;
+}
+.last-footer{
+    display: flex;
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(0, 0, 0);
+    justify-content: space-around;
+    align-items: center;
+}
+.one-logo{
+    font-size: 2.5rem;
+    font-family:'Sen', sans-serif;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+.long{
+    margin-left: -5rem;
+}
+.long input{
+    width: 35rem;
+    outline: none;
+    height: 3rem;
+    padding: 1rem;
+    
+}
+.join{
+    margin-left: -19rem;
+}
+.join input{
+    height: 3rem;
+    width: 10rem;
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    color: #ffffff;
+    background-color: black;
+    border: 0.1rem solid white;
+}
+.icones a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.icones a i{
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+.catagrories{
+    width: 100%;
+    height: 15rem;
+    background-color: rgb(255, 255, 255);
+}
+.footer-menu-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: azure;
+}
+.footer-menu-item{
+    font-size: 1.5rem;
+    font-family:'Sen', sans-serif;
+    font-weight: bolder;
+    color: black;
+    margin-top: 2rem;
+}
+.footer-menu-item h3{
+    font-size: 2rem;
+}
+.footer-menu-item ul{
+    list-style: none;
+    margin-top:1rem;
+}
+.footer-menu-item ul li a{
+    text-decoration: none;
+    color:black;
+    font-weight: 100;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.last-moment{
+    display: flex;
+    width: 100%;
+    height: 3rem;
+    background-color: rgb(219, 219, 219);
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4rem;
+}
+.copyright{
+    margin-right: 10rem;
+}
+.copyright h1{
+    font-size: 1.3rem;
+    font-family:'Sen', sans-serif;
+}
+.desgin h1{
+    font-size: 1.3rem;
+    font-family:'Sen', sans-serif;
+}
+.iconess a i{
+    text-decoration: none;
+    color: #000000;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+.iconess{
+    margin-right: 20rem;
+}
